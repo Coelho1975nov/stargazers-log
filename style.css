@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #f6f8fa;
+  color: #24292f;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #57606a;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#repo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.repo-item {
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  transition: box-shadow 0.15s ease;
+}
+
+.repo-item:hover {
+  box-shadow: 0 1px 4px rgba(140, 149, 159, 0.3);
+}
+
+.repo-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.repo-name a {
+  color: #0969da;
+  text-decoration: none;
+}
+
+.repo-name a:hover {
+  text-decoration: underline;
+}
+
+.repo-description {
+  color: #57606a;
+  margin: 0.35rem 0 0.6rem;
+  font-size: 0.9rem;
+}
+
+.repo-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: #57606a;
+}
+
+.repo-meta .language::before {
+  content: "● ";
+  color: #0969da;
+}
+
+.repo-meta .stars::before {
+  content: "★ ";
+  color: #d4a72c;
+}
+
+.loading,
+.error {
+  color: #57606a;
+  font-style: italic;
+}
+
+.error {
+  color: #cf222e;
+}

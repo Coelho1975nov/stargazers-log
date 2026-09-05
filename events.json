@@ -1,0 +1,42 @@
+[
+  {
+    "name": "octocat/Hello-World",
+    "description": "My first repository on GitHub!",
+    "url": "https://github.com/octocat/Hello-World",
+    "language": "HTML",
+    "stars": 2847,
+    "starredAt": "2026-01-15"
+  },
+  {
+    "name": "github/docs",
+    "description": "The open-source repo for docs.github.com",
+    "url": "https://github.com/github/docs",
+    "language": "TypeScript",
+    "stars": 18234,
+    "starredAt": "2026-02-03"
+  },
+  {
+    "name": "anthropics/claude-code",
+    "description": "Agentic coding tool that lives in your terminal",
+    "url": "https://github.com/anthropics/claude-code",
+    "language": "TypeScript",
+    "stars": 9421,
+    "starredAt": "2026-03-22"
+  },
+  {
+    "name": "torvalds/linux",
+    "description": "Linux kernel source tree",
+    "url": "https://github.com/torvalds/linux",
+    "language": "C",
+    "stars": 189203,
+    "starredAt": "2026-04-10"
+  },
+  {
+    "name": "microsoft/vscode",
+    "description": "Visual Studio Code",
+    "url": "https://github.com/microsoft/vscode",
+    "language": "TypeScript",
+    "stars": 168542,
+    "starredAt": "2026-05-01"
+  }
+]
